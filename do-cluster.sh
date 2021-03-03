@@ -44,13 +44,6 @@ function destroy_cluster() {
 	done
 }
 
-function generate_inventory() {
-	for node in "${NODES[@]}"; do
-		echo "Destroying Droplet ${node}"
-		doctl compute droplet delete -f ${node}
-	done
-}
-
 case $1 in
 	create)
 		echo "Creating Cluster"
