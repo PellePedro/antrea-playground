@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ansible-playbook playbook/k8s.yml 
+ansible-playbook -i ./inventories playbook/k8s.yml 

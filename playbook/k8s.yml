@@ -1,18 +1,9 @@
 ---
 - hosts: masters
   become: true
-  vars:
-    #k8s_api_server_ip: "{{ ansible_facts['default_ipv4']['address'] }}"
-    # node_ip:   "{{ ansible_facts['default_ipv4']['address'] }}"
-    node_ip:   "{{ ansible_default_ipv4['address'] }}"
-    node_name: "{{ ansible_hostname }}"
-    k8s_api_server_ip:    "{{ ansible_default_ipv4['address'] }}"
-    k8s_pod_network_cidr: "172.16.0.0/16"
   roles:
     - control-plane
 - hosts: workers
-  vars:
-    node_ip: "{{ ansible_default_ipv4['address'] }}"
   become: true
   roles:
     - worker
