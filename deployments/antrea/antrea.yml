@@ -3969,7 +3969,7 @@ spec:
               fieldPath: spec.serviceAccountName
         - name: ANTREA_CONFIG_MAP_NAME
           value: antrea-config-mdd77fmc97
-        image: docker.io/pellepdro/antrea-ubuntu:latest
+        image: docker.io/pellepedro/antrea-ubuntu:latest
         imagePullPolicy: IfNotPresent
         livenessProbe:
           failureThreshold: 5
@@ -4182,7 +4182,7 @@ spec:
           valueFrom:
             fieldRef:
               fieldPath: spec.nodeName
-        image: docker.io/pellepdro/antrea-ubuntu:latest
+        image: docker.io/pellepedro/antrea-ubuntu:latest
         imagePullPolicy: IfNotPresent
         livenessProbe:
           exec:
@@ -4243,7 +4243,7 @@ spec:
         - --log_file_max_num=4
         command:
         - start_ovs
-        image: docker.io/pellepdro/antrea-ubuntu:latest
+        image: docker.io/pellepedro/antrea-ubuntu:latest
         imagePullPolicy: IfNotPresent
         livenessProbe:
           exec:
@@ -4278,7 +4278,7 @@ spec:
       initContainers:
       - command:
         - install_cni
-        image: docker.io/pellepdro/antrea-ubuntu:latest
+        image: docker.io/pellepedro/antrea-ubuntu:latest
         imagePullPolicy: IfNotPresent
         name: install-cni
         resources:
