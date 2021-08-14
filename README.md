@@ -36,7 +36,7 @@ kubectl create -f ./deployments/antrea/antrea.yml
 ```
 ##  Deploy Demo App
 ```
- kubectl apply -k github.com/BuoyantIO/emojivoto/kustomize/deployment
+ kubectl ceate -f ./deployments/sample-apps/emojivoto/deployments.yml
 ```
 
 ## Packet Tracing 
