@@ -1,6 +1,6 @@
 [masters]
-master ansible_host=192.168.77.100 node_name=master node_ip=192.168.77.100
+master ansible_host=143.198.35.214 node_name=master node_ip=143.198.35.214
 
 [workers]
-worker1 ansible_host=192.168.77.101 node_name=worker1 node_ip=192.168.77.101
-worker2 ansible_host=192.168.77.102 node_name=worker2 node_ip=192.168.77.102
+worker1 ansible_host=159.203.60.210 node_name=worker1 node_ip=159.203.60.210
+worker2 ansible_host=159.89.116.86 node_name=worker2 node_ip=159.89.116.86

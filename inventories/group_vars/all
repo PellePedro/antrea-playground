@@ -1,5 +1,5 @@
 ---
 # Global Default
 
-k8s_api_server_ip:    192.168.77.100 
+k8s_api_server_ip:    143.198.35.214 
 k8s_pod_network_cidr: 172.16.0.0/16
