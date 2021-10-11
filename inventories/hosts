@@ -1,4 +1,5 @@
 [masters]
+#master ansible_host=node-b ansible_port=8022 node_name=master node_ip=4.4.1.2
 master ansible_host=vm-b ansible_port=8022 node_name=master node_ip=4.4.1.2
 
 [workers]

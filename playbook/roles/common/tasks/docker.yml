@@ -47,6 +47,7 @@
 - pip:
     name: docker-py
 
+
 - name: Create Docker daemon configuration from template
   template:
     src: templates/docker.json.j2

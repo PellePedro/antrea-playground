@@ -3733,7 +3733,7 @@ data:
     # - vxlan
     # - gre
     # - stt
-    #tunnelType: geneve
+    tunnelType: vxlan
 
     # Default MTU to use for the host gateway interface and the network interface of each Pod.
     # If omitted, antrea-agent will discover the MTU of the Node's primary interface and
