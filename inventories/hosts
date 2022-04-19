@@ -1,7 +1,7 @@
 [masters]
 #master ansible_host=node-b ansible_port=8022 node_name=master node_ip=4.4.1.2
-master ansible_host=192.168.50.59 ansible_port=8022 node_name=master node_ip=4.4.1.2
+master ansible_host=dallas-si ansible_port=8022 ansible_user=ubuntu node_name=master node_ip=4.4.1.2
 
 [workers]
-worker1 ansible_host=192.168.50.58 ansible_port=8022 node_name=worker1 node_ip=4.3.1.2
-worker2 ansible_host=192.168.50.60 ansible_port=8022 node_name=worker2 node_ip=4.5.1.2
+worker1 ansible_host=la-si ansible_port=8022 ansible_user=ubuntu node_name=worker1 node_ip=4.3.1.2
+worker2 ansible_host=chicago-si ansible_port=8022 ansible_user=ubuntu node_name=worker2 node_ip=4.5.1.2
